@@ -1,0 +1,8 @@
+for(int i=1;i<=no_of_family_mem;i++){
+		string name;
+		int age;
+		cout<<"Enter Family Member "<<i<<" Name:";cin>>name;
+		cout<<"Enter Family Member "<<i<<" Name:";cin.ignore();getline(cin,name);
+		cout<<"Enter Family Member "<<i<<" Age:";cin>>age;
+        //appending data name and age in doubly linked list
+		append(head,name,age);
